@@ -24,7 +24,7 @@ API_HASH = getenv("b74f25d902e4dd9a0ba158f5508b562b")
 BOT_TOKEN = getenv("8326008969:AAE1r9E0ens31E-b74bg9H0MYGXb5SAwkVY")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("", None)
+MONGO_DB_URI = getenv("mongodb+srv://atanmetin15_db_user:<GhOvogwdLDdtiNQv>@cluster0.gpvcipe.mongodb.net/", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("1008266228160", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("starmüzik")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
